@@ -10,11 +10,13 @@
         <h2>Contact Information</h2>
         <form>
             <label for="name">Name:</label>
-            <input type="text" name="inName" id="inName" required><br>
+            <input type="text" name="name" id="name" required><br>
+            
             <label for="phone">Phone:</label>
-            <input type="phone" name="inPhone" id="inPhone"required><br>
+            <input type="tel" name="phone" id="phone" required><br>
+            
             <label for="email">Email:</label>
-            <input type="email" name="inEmail" id="inEmail"required><br>
+            <input type="email" name="email" id="email" required><br>
 
             <h2>Select Pizza Size</h2>
             <select name="pizzaSize" id="pizzaSize" required>
@@ -26,9 +28,9 @@
 
             <h2>Select Sauce</h2>
 
-            <input type="radio" name="sauce" required><label>Marinara</label><br>
-            <input type="radio" name="sauce" required><label>Ranch</label><br>
-            <input type="radio" name="sauce" required><label>No Sauce</label><br>
+            <input type="radio" name="sauce" id="Marinara" value="Mariana" required><label>Marinara</label><br>
+            <input type="radio" name="sauce" id="Ranch" value="Ranch" required><label>Ranch</label><br>
+            <input type="radio" name="sauce" id="NoSauce" value="NoSauce" required><label>No Sauce</label><br>
 
             <h2>Select Toppings</h2>
 
@@ -41,7 +43,7 @@
 
             <h2>Additional Instructions</h2>
 
-            <textarea name="addiontalInstructions">Add instructions</textarea><br>
+            <textarea name="addiontal Instructions">Add instructions</textarea><br>
             <input type="submit" value="Place Order">
 
         </form>
@@ -49,48 +51,47 @@
         <br>
         <br>
         
-        <section>
-            <table border="1">
+        <table border="1">
 
-                <caption>List of My Favorite Games</caption>
-                    
-                <thead>
-                    <tr>
-                        <th>Developer</th>
-                        <th>Title</th>
-                        <th>Year</th>
-                    </tr>
-                </thead>
+            <caption>List of My Favorite Games</caption>
+                
+            <thead>
+                <tr>
+                    <th>Developer</th>
+                    <th>Title</th>
+                    <th>Year</th>
+                </tr>
+            </thead>
 
-                <tbody>
-                    <tr>
-                        <td rowspan="3">Bungie</td>
-                        <td>Halo</td>
-                        <td>2001</td>
-                    </tr>
-                    <tr> 
-                        <td>Halo 2</td>
-                        <td>2004</td>
-                    </tr>
-                    <tr>
-                        <td>Halo 3</td>
-                        <td>2007</td>
-                    </tr>
-                    <tr>
-                        <td>Mojang</td>
-                        <td>Minecraft</td>
-                        <td>2011</td>   
-                    </tr>   
+            <tbody>
+                <tr>
+                    <td rowspan="3">Bungie</td>
+                    <td>Halo</td>
+                    <td>2001</td>
+                </tr>
+                <tr> 
+                    <td>Halo 2</td>
+                    <td>2004</td>
+                </tr>
+                <tr>
+                    <td>Halo 3</td>
+                    <td>2007</td>
+                </tr>
+                <tr>
+                    <td>Mojang</td>
+                    <td>Minecraft</td>
+                    <td>2011</td>   
+                </tr>   
 
-                    <tfoot>
-                        <tr>
-                            <td colspan="3">Count: 4</td>
-                        </tr>
-                    </tfoot>
+            </tbody>
 
-                </tbody>
-            </table>
-        </section>
+                <tfoot>
+                    <tr>
+                        <td colspan="3">Count: 4</td>
+                    </tr>
+                </tfoot>
+
+        </table>
         
     </body>
 </html>
